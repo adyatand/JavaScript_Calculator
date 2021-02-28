@@ -1,0 +1,67 @@
+body {
+    background-color: #c2c2d6;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#container {
+    width:17.5rem;
+    height:22rem;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 6rem;
+}
+
+#display-container {
+    background-color:black;
+    color:chocolate;
+    font-family: 'Orbitron', sans-serif;
+    font-size: 1.4rem;
+    width: 14.8rem;
+    height: 3.5rem;
+
+}
+
+#buttons {
+    width: 16.75rem;
+    flex-wrap: wrap;
+
+}
+
+.keys {
+    font-family: 'Orbitron', sans-serif;
+    font-weight: bold;
+    font-size: 1rem;
+    background-color: gray;
+    width: 4rem;
+    height: 3.5rem;
+    margin-right: 0px;
+}
+#equals {
+    width: 16.75rem;
+    background-color: #4b0082;
+}
+
+#clears{
+    background-color: crimson;
+}
+
+#addition {
+    background-color: #A9A9A9;
+}
+
+#subtract {
+    background-color: #A9A9A9;
+}
+
+#multiply {
+    background-color: #A9A9A9;
+}
+
+#divide {
+    background-color: #A9A9A9;
+}
