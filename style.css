@@ -6,8 +6,8 @@ body {
 }
 
 #container {
-    width:17.5rem;
-    height:22rem;
+    width:18rem;
+    height:23rem;
     background-color: black;
     display: flex;
     flex-direction: column;
@@ -21,9 +21,8 @@ body {
     color:chocolate;
     font-family: 'Orbitron', sans-serif;
     font-size: 1.4rem;
-    width: 14.8rem;
+    width: 18rem;
     height: 3.5rem;
-
 }
 
 #buttons {
@@ -64,4 +63,10 @@ body {
 
 #divide {
     background-color: #A9A9A9;
+}
+#display {
+    margin-left: 3px;
+}
+#preview{
+    margin-left: 3px;
 }
